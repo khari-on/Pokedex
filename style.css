@@ -1,0 +1,21 @@
+body{
+    background:linear-gradient(to right,grey,orange);
+}
+h1{
+    text-align: center;
+}
+
+#conatiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poke{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px;
+    background-color: beige;
+    align-items: center;
+    border-radius: 20%;
+}
